@@ -1,6 +1,6 @@
 function solution(letter) {
     var answer = '';
-    let mos ={".-":"a",
+    let morse ={".-":"a",
               "-...":'b',
               "-.-.":'c',
               "-..":'d',
@@ -26,7 +26,7 @@ function solution(letter) {
               "-..-":'x',
               "-.--":'y',
               "--..":'z'}
-   answer=letter.split(" ").map(e=>mos[e]).join('')
+   answer=letter.split(" ").map(e=>morse[e]).join('')
     
     
     return answer;
