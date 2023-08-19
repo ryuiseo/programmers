@@ -1,4 +1,5 @@
 function solution(rny_string) {
-    var answer = rny_string.replace(/m/gi,'rn')
+    var answer = '';
+    answer = rny_string.replaceAll('m','rn')
     return answer;
 }
